@@ -4,11 +4,6 @@
     src: url('fonts/ElronMonospace.ttf'); 
 }
 
-.html
-{
-    scroll-behavior: smooth;
-}
-
 :root
 {
     --bg-color: #272727;
@@ -36,6 +31,13 @@
     border: .25em solid var(--bg-color);
 }
 
+html
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 body
 {
     margin: 0;
@@ -43,9 +45,9 @@ body
     font-weight: bold;
     background-color: var(--bg-color);
     color: var(--title-color);
+    scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: auto;
-    scroll-behavior: smooth;
 }
 
 div 
