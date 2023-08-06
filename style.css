@@ -238,17 +238,17 @@ div
 
 .image1
 {
-    background-image: url('../images/ODND.png');
+    background-image: url('images/ODND.png');
 }
 
 .image2
 {
-    background-image: url('../images/dndgame.jpg');
+    background-image: url('images/dndgame.jpg');
 }
 
 .image3
 {
-    background-image: url('../images/dndonline.png');
+    background-image: url('images/dndonline.png');
 }
 
 .placeholder
@@ -348,42 +348,42 @@ div
 
 @keyframes roll-die
 {
-    0% { background-image: url(../images/d20die/r1.png); }
-    25% { background-image: url(../images/d20die/r2.png); }
-    50% { background-image: url(../images/d20die/r3.png); }
-    75% { background-image: url(../images/d20die/r4.png); }
-    100% { background-image: url(../images/d20die/r5.png); }
+    0% { background-image: url(images/d20die/r1.png); }
+    25% { background-image: url(images/d20die/r2.png); }
+    50% { background-image: url(images/d20die/r3.png); }
+    75% { background-image: url(images/d20die/r4.png); }
+    100% { background-image: url(images/d20die/r5.png); }
 }
 
 @-webkit-keyframes roll-die
 {
-    0% { background-image: url(../images/d20die/r1.png); }
-    25% { background-image: url(../images/d20die/r2.png); }
-    50% { background-image: url(../images/d20die/r3.png); }
-    75% { background-image: url(../images/d20die/r4.png); }
-    100% { background-image: url(../images/d20die/r5.png); }
+    0% { background-image: url(images/d20die/r1.png); }
+    25% { background-image: url(images/d20die/r2.png); }
+    50% { background-image: url(images/d20die/r3.png); }
+    75% { background-image: url(images/d20die/r4.png); }
+    100% { background-image: url(images/d20die/r5.png); }
 }
 
-.f1 { background-image: url('../images/d20die/f1.png'); }
-.f2 { background-image: url('../images/d20die/f2.png'); }
-.f3 { background-image: url('../images/d20die/f3.png'); }
-.f4 { background-image: url('../images/d20die/f4.png'); }
-.f5 { background-image: url('../images/d20die/f5.png'); }
-.f6 { background-image: url('../images/d20die/f6.png'); }
-.f7 { background-image: url('../images/d20die/f7.png'); }
-.f8 { background-image: url('../images/d20die/f8.png'); }
-.f9 { background-image: url('../images/d20die/f9.png'); }
-.f10 { background-image: url('../images/d20die/f10.png'); }
-.f11 { background-image: url('../images/d20die/f11.png'); }
-.f12 { background-image: url('../images/d20die/f12.png'); }
-.f13 { background-image: url('../images/d20die/f13.png'); }
-.f14 { background-image: url('../images/d20die/f14.png'); }
-.f15 { background-image: url('../images/d20die/f15.png'); }
-.f16 { background-image: url('../images/d20die/f16.png'); }
-.f17 { background-image: url('../images/d20die/f17.png'); }
-.f18 { background-image: url('../images/d20die/f18.png'); }
-.f19 { background-image: url('../images/d20die/f19.png'); }
-.f20 { background-image: url('../images/d20die/f20.png'); }
+.f1 { background-image: url('images/d20die/f1.png'); }
+.f2 { background-image: url('images/d20die/f2.png'); }
+.f3 { background-image: url('images/d20die/f3.png'); }
+.f4 { background-image: url('images/d20die/f4.png'); }
+.f5 { background-image: url('images/d20die/f5.png'); }
+.f6 { background-image: url('images/d20die/f6.png'); }
+.f7 { background-image: url('images/d20die/f7.png'); }
+.f8 { background-image: url('images/d20die/f8.png'); }
+.f9 { background-image: url('images/d20die/f9.png'); }
+.f10 { background-image: url('images/d20die/f10.png'); }
+.f11 { background-image: url('images/d20die/f11.png'); }
+.f12 { background-image: url('images/d20die/f12.png'); }
+.f13 { background-image: url('images/d20die/f13.png'); }
+.f14 { background-image: url('images/d20die/f14.png'); }
+.f15 { background-image: url('images/d20die/f15.png'); }
+.f16 { background-image: url('images/d20die/f16.png'); }
+.f17 { background-image: url('images/d20die/f17.png'); }
+.f18 { background-image: url('images/d20die/f18.png'); }
+.f19 { background-image: url('images/d20die/f19.png'); }
+.f20 { background-image: url('images/d20die/f20.png'); }
 
 .slide-in
 {
