@@ -1,3 +1,9 @@
+@font-face
+{ 
+    font-family: Elron; 
+    src: url('fonts/ElronMonospace.ttf'); 
+}
+
 html
 {
     overflow-x: hidden;
@@ -7,7 +13,7 @@ html
 body
 {
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Elron';
     font-weight: bold;
     background-color: var(--bg-color);
     color: var(--title-color);
@@ -295,7 +301,7 @@ div
     padding: 2vh 2vw;
     text-align: center;
     display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Elron';
     font-size: 20px;
     font-weight: bold;
     border: none;
@@ -462,7 +468,7 @@ div
     background: var(--bg-color);
 }
 
-@media screen and (max-width: 721px)
+@media screen and (max-width: 800px)
 {
     .navbar 
     {
@@ -478,4 +484,11 @@ div
         text-align: center;
         margin-top: 10px;
     }
+
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
 }
