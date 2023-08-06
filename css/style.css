@@ -221,6 +221,21 @@ div
     color: var(--onhover-color);
 }
 
+.genre
+{
+    display: grid;
+    width: 82.5vw;
+    grid-template-columns: 50% 50%;
+    max-height: fit-content;
+    align-items: center;
+    text-align: center;
+}
+
+.genre p
+{
+    color: var(--title-color);
+}
+
 .image1
 {
     background-image: url('../images/ODND.png');
@@ -479,12 +494,11 @@ div
         max-height: fit-content;
     }
 
-    .navi p
+    .genre
     {
-        flex-basis: 20%;
-        flex-grow: 1;
+        display: grid;
+        grid-template-columns: 100%;
         text-align: center;
-        margin-top: 10px;
     }
 
     html, body
