@@ -67,10 +67,12 @@ div
 .logo > a > img
 {
     width: 20vw;
+    opacity: 0.4;
 }
 
 .logo > a > img:hover
 {
+    opacity: 1;
     animation: shake 0.5s;
 }
 
@@ -123,8 +125,8 @@ div
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
     height: 100vh;
+    width: auto;
     object-fit: cover;
     align-self: center;
 }
