@@ -1,6 +1,6 @@
 @font-face
 { 
-    font-family: Elron; 
+    font-family:'Courier New', Courier, monospace; 
     src: url('fonts/ElronMonospace.ttf'); 
 }
 
@@ -20,6 +20,11 @@ body
     scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+div 
+{
+    display: block;
 }
 
 :root
@@ -47,11 +52,6 @@ body
     background: var(--subtitle-color);
     border-radius: 100vw;
     border: .25em solid var(--bg-color);
-}
-
-div 
-{
-    display: block;
 }
 
 .date
@@ -274,7 +274,7 @@ div
     color: var(--title-color);
     text-shadow: 0 0 3px var(--bg-color);
     text-align: center;
-    font-size: 2vh;
+    font-size: 4vh;
 }
 
 .button-container
