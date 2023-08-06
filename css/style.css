@@ -274,7 +274,7 @@ div
     color: var(--title-color);
     text-shadow: 0 0 3px var(--bg-color);
     text-align: center;
-    font-size: 4vh;
+    font-size: 2vh;
 }
 
 .button-container
