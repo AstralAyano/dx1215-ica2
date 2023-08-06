@@ -126,7 +126,7 @@ div
     top: 0;
     left: 0;
     height: 100vh;
-    width: 100vw;
+    width: auto;
     object-fit: cover;
     align-self: center;
 }
@@ -485,5 +485,11 @@ div
         flex-grow: 1;
         text-align: center;
         margin-top: 10px;
+    }
+
+    html, body
+    {
+        overflow-x: hidden;
+        position: relative;
     }
 }
