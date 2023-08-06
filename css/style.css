@@ -487,6 +487,7 @@ div
 
 .sources a
 {
+    text-decoration: none;
     color: var(--onhover-color);
 }
 
