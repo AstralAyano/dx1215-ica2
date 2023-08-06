@@ -4,6 +4,24 @@
     src: url('fonts/ElronMonospace.ttf'); 
 }
 
+html
+{
+    overflow-x: hidden;
+    overflow-y: scroll !important;
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Elron';
+    font-weight: bold;
+    background-color: var(--bg-color);
+    color: var(--title-color);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 :root
 {
     --bg-color: #272727;
@@ -29,25 +47,6 @@
     background: var(--subtitle-color);
     border-radius: 100vw;
     border: .25em solid var(--bg-color);
-}
-
-html
-{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
-body
-{
-    margin: 0;
-    font-family: 'Elron';
-    font-weight: bold;
-    background-color: var(--bg-color);
-    color: var(--title-color);
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 div 
@@ -218,11 +217,6 @@ div
 .page p
 {
     color: var(--onhover-color);
-}
-
-#page1 img
-{
-    width: 40vw;
 }
 
 .image1

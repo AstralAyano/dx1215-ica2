@@ -29,25 +29,25 @@ function show(pageIndex)
 page1Btn.addEventListener('click', function()
 {
     show(1);
-    page1Btn.scrollIntoView({behavior: 'smooth'});
+    //page1Btn.scrollIntoView({behavior: 'smooth'});
 });
 
 page2Btn.addEventListener('click', function()
 {
     show(2);
-    page2Btn.scrollIntoView({behavior: 'smooth'});
+    //page2Btn.scrollIntoView({behavior: 'smooth'});
 });
 
 page3Btn.addEventListener('click', function()
 {
     show(3);
-    page3Btn.scrollIntoView({behavior: 'smooth'});
+    //page3Btn.scrollIntoView({behavior: 'smooth'});
 });
 
 page4Btn.addEventListener('click', function()
 {
     show(4);
-    page4Btn.scrollIntoView({behavior: 'smooth'});
+    //page4Btn.scrollIntoView({behavior: 'smooth'});
 });
 
 let dragon = document.getElementById('dragon');
