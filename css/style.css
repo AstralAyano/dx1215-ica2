@@ -481,8 +481,24 @@ div
     text-align: center;
     bottom: 0;
     width: 100vw;
-    height: 40vh;
+    height: 60vh;
     background: var(--bg-color);
+}
+
+.sources a
+{
+    color: var(--onhover-color);
+}
+
+.sources a:hover
+{
+    color: var(--title-color);
+}
+
+.sources img
+{
+    width: 10vw;
+    height: auto;
 }
 
 @media screen and (max-width: 800px)
